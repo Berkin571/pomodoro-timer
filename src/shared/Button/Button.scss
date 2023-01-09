@@ -1,0 +1,14 @@
+button {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  border: none;
+  display: inline-block;
+  font-size: 3rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+
+  &:hover {
+    color: #2a8fbb;
+  }
+}

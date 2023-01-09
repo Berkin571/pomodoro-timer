@@ -1,0 +1,22 @@
+.settings-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  border: none;
+  font-size: 2rem;
+  margin-top: 15rem;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+
+  span {
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+
+  &:hover {
+    color: #2a8fbb;
+  }
+}
